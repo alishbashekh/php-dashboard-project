@@ -9,6 +9,7 @@
                 </h4>
             </div>
             <div class="card-body">
+                <?php alertmsg() ?>
                 <table class="table table-bordered table-striped">
                     <thead>
                         <tr>

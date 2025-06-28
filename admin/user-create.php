@@ -5,11 +5,12 @@
         <div class="card">
             <div class="card-header">
                 <h4>add user
-                <a href="user.php" class="btn btn-danger float-end">back</a>
+                <a href="user-read.php" class="btn btn-danger float-end">back</a>
                 </h4>
             </div>
             <div class="card-body">
-                <form action="">
+                <?php alertmsg() ?>
+                <form action="code.php" method="post">
                     <div class="row">
                     <div class="col-md-6">
                     <div class="mb-3">
@@ -37,7 +38,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="mb-3">
-                        <label>select Role:</label>
+                        <label>select role</label>
                         <select name="role" class="form-select">
                             <option value="">select role</option>
                             <option value="admin">Admin</option>
@@ -47,7 +48,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="mb-3">
-                        <label>check-box:</label>
+                        <label>Is Ban</label>
                         <br>
                         <input type="checkbox" name="is_ban" style="width:30px;height:30px">
                     </div>
