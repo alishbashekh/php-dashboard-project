@@ -2,12 +2,6 @@
 session_start();
 
 include("dbcon.php");
-
-function validate($input){
-
-    return mysqli_real_escape_string($con,$input);
-}
-
 function redirect($url,$status){
         $_SESSION ['status'] = $status;
         header("location:".$url);
