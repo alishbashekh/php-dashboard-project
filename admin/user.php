@@ -37,7 +37,10 @@
                       <td><?php echo $row['is_ban']==1 ?'offline':'online' ?></td>
                       <td>
                         <a href="user-edit.php?id=<?php echo $row['id']?>" class="btn btn-success">update</a>
-                        <a href="user-delete.php" class="btn btn-danger">delete</a>
+                        <a href="user-delete.php?id=<?php echo $row['id']?>" class="btn btn-danger"
+                        onclick="return confirm('you sure you want to del this data')"
+                        >
+                        delete</a>
                       </td>
                     </tr>
                           <?php }
