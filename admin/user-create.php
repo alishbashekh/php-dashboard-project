@@ -5,7 +5,7 @@
         <div class="card">
             <div class="card-header">
                 <h4>add user
-                <a href="user-read.php" class="btn btn-danger float-end">back</a>
+                <a href="user.php" class="btn btn-danger float-end">back</a>
                 </h4>
             </div>
             <div class="card-body">
