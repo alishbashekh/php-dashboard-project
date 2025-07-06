@@ -25,18 +25,7 @@
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">    
              <i class="fas fa-bullhorn text-dark text-lg"></i>
             </div>
-            <span class="nav-link-text ms-1">enquiries</span>
-          </a>
-        </li>
-         <li class="nav-item mt-3">
-          <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">manage services</h6>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  " href="services.php">
-            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">    
-             <i class="fas fa-cogs text-dark text-lg"></i>
-            </div>
-            <span class="nav-link-text ms-1">services</span>
+            <span class="nav-link-text ms-1">About us</span>
           </a>
         </li>
          <li class="nav-item mt-3">
@@ -53,9 +42,9 @@
         <li class="nav-item">
           <a class="nav-link  " href="socials.php">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">    
-             <i class="fas fa-globe text-dark text-lg"></i>
+             <i class="fas fa-truck text-dark text-lg"></i>
             </div>
-            <span class="nav-link-text ms-1">social-media</span>
+            <span class="nav-link-text ms-1">Order status</span>
           </a>
         </li>
         <li class="nav-item">
@@ -63,7 +52,18 @@
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">    
              <i class="fas fa-globe text-dark text-lg"></i>
             </div>
-            <span class="nav-link-text ms-1">settings</span>
+            <span class="nav-link-text ms-1">social media</span>
+          </a>
+        </li>
+         <li class="nav-item mt-3">
+          <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">manage services</h6>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  " href="services.php">
+            <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">    
+             <i class="fas fa-cogs text-dark text-lg"></i>
+            </div>
+            <span class="nav-link-text ms-1">services</span>
           </a>
         </li>
         

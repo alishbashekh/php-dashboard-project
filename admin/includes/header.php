@@ -7,10 +7,10 @@ include("../config/function.php");
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
-  <title>
-    Soft UI Dashboard 3 by Creative Tim
+  <link rel="apple-touch-icon" sizes="76x76" href="">
+  <link rel="icon" type="image/png" href=""> 
+     <title>
+    courier service
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800" rel="stylesheet" />
